@@ -1,0 +1,52 @@
+section {
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  display: flex;
+}
+.componentA {
+  height: 50vh;
+  width: 49%;
+  display: inline-block;
+  background-color: blue;
+  color: white;
+  font-size: 24px;
+  border: 1px solid white;
+}
+
+.helper {
+  height: 50vh;
+  width: 49%;
+  display: inline-block;
+  background-color: whitesmoke;
+  color: white;
+  font-size: 14px;
+  border: 1px solid white;
+}
+
+.info_container {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  margin: 1rem 0;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: bold;
+  color: black;
+  display: flex;
+  flex-direction: column;
+}
+
+.combo {
+  display: inline-block;
+  color: black;
+}
+
+.description {
+  display: inline-block;
+  color: black;
+}
